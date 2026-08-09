@@ -1,3 +1,8 @@
+## [v3.11.20](https://github.com/sqldef/sqldef/compare/v3.11.19...v3.11.20) - 2026-08-09
+
+- psqldef: filter object owners by TargetSchema in export by @dip-daiki-ogikubo in https://github.com/sqldef/sqldef/pull/1325
+- fix(mysqldef): support CAST(... AS type ARRAY) in multi-valued index parsing  by @masuyu in https://github.com/sqldef/sqldef/pull/1298
+
 ## [v3.11.19](https://github.com/sqldef/sqldef/compare/v3.11.18...v3.11.19) - 2026-08-06
 
 - build(deps): bump actions/checkout from 7.0.0 to 7.0.1 by @dependabot[bot] in https://github.com/sqldef/sqldef/pull/1318
